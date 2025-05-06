@@ -1,15 +1,19 @@
-*{
+/*
+Copyright amir javanmir
+Released on: May 6, 2025
+*/
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     direction: ltr;
     text-align: left;
     padding: 0;
     margin: 0;
 }
 
-.download-btn{
+.download-btn {
     padding: 0.7rem 1rem;
     color: white;
     background: #4CAF50;
