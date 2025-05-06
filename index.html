@@ -1,0 +1,53 @@
+<!--
+Copyright amir javanmir
+Released on: May 6, 2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fileToZip Project</title>
+</head>
+<body>
+    <script src="./js/app.js"></script>
+    <h2>Table One</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td><a href="./portal/file/1.jpg">File 1</a><span class="nationalcode">1234567890</span></td>
+                <td><a href="./portal/file/2.png">File 2</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Table Two</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td><a href="./portal/file/1.jpg">File 1</a></td>
+                <td><a href="./portal/file/2.png">File 2</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Table Three</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td><a href="./portal/file/1.jpg">File 1</a></td>
+                <td><a href="./portal/file/2.png">File 2</a></td>
+                </tr>
+        </tbody>
+    </table>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            const downloader = new AttachmentDownloader({
+                tableSelector: "table",
+                nationalCodeSelector: ".nationalcode",
+                buttonText: "دانلود پیوست ها",
+                buttonPositionSelector: "tbody > tr > td"
+            });
+            downloader.initializeDownloadButtons();
+        })
+    </script>
+</body>
+</html>
