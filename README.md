@@ -5,8 +5,6 @@ Here's a professional README.md for your GitHub repository:
 
 A JavaScript utility that converts file attachments in HTML tables to downloadable ZIP archives with progress tracking.
 
-![Demo](https://via.placeholder.com/800x400?text=FileToZip+Demo) <!-- Replace with actual demo image -->
-
 ## Features
 
 - 📦 Converts multiple file attachments into a single ZIP download
@@ -68,35 +66,14 @@ fileToZip/
 
 ## License
 
-Copyright © 2025 Amir Javanmir. Released under the [MIT License](LICENSE).
+Copyright © 2025 Amir Javanmir.
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or pull request for any improvements.
-
-## Demo
-
-See the [live demo](https://your-demo-url-here.com) or clone the repository to test locally.
 
 ---
 
 **Note**: This project requires the [JSZip library](https://stuk.github.io/jszip/) to function properly.
 ```
 
-This README includes:
-1. Clear project description
-2. Key features list
-3. Installation instructions
-4. Configuration options table
-5. File structure overview
-6. Browser compatibility
-7. License information
-8. Contribution guidelines
-9. Demo section
-
-You can customize it further by:
-- Adding actual demo images/videos
-- Including a more detailed example
-- Adding version information
-- Including a changelog
-- Adding badges for build status, coverage, etc.
