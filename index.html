@@ -8,9 +8,10 @@ Released on: May 6, 2025
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fileToZip Project</title>
+    <script src="./js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
 <body>
-    <script src="./js/app.js"></script>
     <h2>Table One</h2>
     <table>
         <tbody>
@@ -43,7 +44,7 @@ Released on: May 6, 2025
             const downloader = new AttachmentDownloader({
                 tableSelector: "table",
                 nationalCodeSelector: ".nationalcode",
-                buttonText: "دانلود پیوست ها",
+                buttonText: "Download",
                 buttonPositionSelector: "tbody > tr > td"
             });
             downloader.initializeDownloadButtons();
