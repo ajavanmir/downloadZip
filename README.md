@@ -75,5 +75,3 @@ Contributions are welcome! Please open an issue or pull request for any improvem
 ---
 
 **Note**: This project requires the [JSZip library](https://stuk.github.io/jszip/) to function properly.
-```
-
